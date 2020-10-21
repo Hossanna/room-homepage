@@ -1,1 +1,4 @@
 [1020/065634.787:ERROR:directory_reader_win.cc(43)] FindFirstFile: The system cannot find the path specified. (0x3)
+[1021/104759.265:ERROR:directory_reader_win.cc(43)] FindFirstFile: The system cannot find the path specified. (0x3)
+[1021/115110.530:ERROR:registration_protocol_win.cc(103)] CreateFile: The system cannot find the file specified. (0x2)
+[1021/115113.578:ERROR:registration_protocol_win.cc(103)] CreateFile: The system cannot find the file specified. (0x2)
