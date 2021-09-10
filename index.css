@@ -11,7 +11,7 @@
         height: 100%;
         width: 90%;
         align-items: center;
-        margin-left: 50px;
+        margin: auto;
     }
         
     #toprow{
@@ -92,5 +92,44 @@
 }
 
 @media(max-width: 750px){
-    
+    .container{
+        display: block;
+        width: 90%;
+        align-items: center;
+        margin: auto;
+    }
+    #toprow{
+        display: block;
+       
+    }
+    #bottomrow{
+        display: block;
+        
+    }
+    #head{
+        width: 100%;
+    }
+    #innovative{
+        width: 100%;
+        padding: 1%;
+        padding-bottom: 0;
+        font-size: 13px;
+        margin: 0 auto;
+    }
+    #dark{
+        width: 100%;
+    }
+    #light{
+        width: 100%;
+    }
+
+    #about{
+        padding: 20px;
+        width: 100%;
+        font-size: 13px;
+    }
+}
+
+@media(max-width: 1000px){
+
 }
