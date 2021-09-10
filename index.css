@@ -1,85 +1,96 @@
-
-#container{
-    display: flex;
-    flex-wrap: wrap;
-    height: 100%;
-    width: 90%;
-    align-items: center;
-    margin-left: 50px;
-}
+@media(min-width: 0px){
+    * {
+        box-sizing: border-box;
+        padding: 0;
+        margin: 0;
+    }
     
-#toprow{
-    display: flex;
-    height: 70%;
-    width: 100%;
-}
-#bottomrow{
-    display: flex;
-    height: 30%;
-    width: 100%;
-}
-#head{
-    height: 100%;
-     width: 60%;
-}
- .navbar{
-     width: 50%;
-     margin-top: 25px;
-     font-size: 13px;
-     margin-left: 30px;
- }
-.navbar a{
-    color: hsl(0, 0%, 100%);
+    #container{
+        display: flex;
+        flex-wrap: wrap;
+        height: 100%;
+        width: 90%;
+        align-items: center;
+        margin-left: 50px;
+    }
+        
+    #toprow{
+        display: flex;
+        height: 70%;
+        width: 100%;
+    }
+    #bottomrow{
+        display: flex;
+        height: 30%;
+        width: 100%;
+    }
+    #head{
+        height: 100%;
+         width: 60%;
+    }
+     .navbar{
+         width: 50%;
+         margin-top: 25px;
+         font-size: 13px;
+         margin-left: 30px;
+     }
+    .navbar a{
+        color: hsl(0, 0%, 100%);
+    }
+    
+    #innovative{
+        height: 100%;
+        width: 40%;
+        padding: 60px;
+        padding-bottom: 0;
+        font-size: 13px;
+        margin: 0 auto;
+    }
+    #available{
+        display: none;
+    }
+    #best{
+        display: none;
+    }
+    #dark{
+        height: 100%;
+        width: 30%;
+    }
+    #light{
+        height: 100%;
+        width: 30%;
+    }
+    #room{
+        font-size: 25px;
+        letter-spacing: 3px;
+    }
+    #about{
+        padding: 20px;
+        width: 40%;
+        height: 100%;
+        font-size: 13px;
+    }
+    .header{
+        font-weight: 900;
+        font-size: 30px;
+    }
+    #header{
+        text-transform: uppercase;
+        font-weight: 800;
+    }
+    .shop{
+        text-transform: uppercase;
+        letter-spacing: 10px;
+        margin-top: 15px;
+    }
+    
+    /*.attribution { 
+        font-size: 11px; text-align: center; 
+        height: 10%;
+    }
+    .attribution a { color: hsl(228, 45%, 44%); } */
 }
 
-#innovative{
-    height: 100%;
-    width: 40%;
-    padding: 60px;
-    padding-bottom: 0;
-    font-size: 13px;
-    margin: 0 auto;
+@media(max-width: 750px){
+    
 }
-#available{
-    display: none;
-}
-#best{
-    display: none;
-}
-#dark{
-    height: 100%;
-    width: 30%;
-}
-#light{
-    height: 100%;
-    width: 30%;
-}
-#room{
-    font-size: 25px;
-    letter-spacing: 3px;
-}
-#about{
-    padding: 20px;
-    width: 40%;
-    height: 100%;
-    font-size: 13px;
-}
-.header{
-    font-weight: 900;
-    font-size: 30px;
-}
-#header{
-    text-transform: uppercase;
-    font-weight: 800;
-}
-.shop{
-    text-transform: uppercase;
-    letter-spacing: 10px;
-    margin-top: 15px;
-}
-
-/*.attribution { 
-    font-size: 11px; text-align: center; 
-    height: 10%;
-}
-.attribution a { color: hsl(228, 45%, 44%); } */
