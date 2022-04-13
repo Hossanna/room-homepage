@@ -9,24 +9,24 @@
         display: flex;
         flex-wrap: wrap;
         height: 100%;
-        width: 90%;
+        width: 100%;
         align-items: center;
-        margin: auto;
+        
     }
         
     #toprow{
         display: flex;
-        height: 70%;
+        height: 400px;
         width: 100%;
     }
     #bottomrow{
         display: flex;
-        height: 30%;
+        height: 295px;
         width: 100%;
     }
     #head{
-        height: 100%;
-         width: 60%;
+        height: 400px;
+        width: 60%;
     }
      .navbar{
          width: 50%;
@@ -61,21 +61,22 @@
         width: 30%;
     }
     #room{
-        font-size: 25px;
+        font-size: 2em;
         letter-spacing: 3px;
     }
     #about{
-        padding: 20px;
+        padding: 6% 3%;
         width: 40%;
         height: 100%;
         font-size: 13px;
     }
     .header{
         font-weight: 900;
-        font-size: 30px;
+        font-size: 1.5em;
     }
     #header{
         text-transform: uppercase;
+        letter-spacing: 3px;
         font-weight: 800;
     }
     .shop{
@@ -94,9 +95,9 @@
 @media(max-width: 750px){
     .container{
         display: block;
-        width: 90%;
+        width: 100%;
         align-items: center;
-        margin: auto;
+        
     }
     #toprow{
         display: block;
@@ -108,32 +109,37 @@
     }
     #head{
         width: 100%;
+        height: 235px;
+        padding-top: 1%;
     }
     #innovative{
         width: 100%;
-        padding: 1%;
-        padding-bottom: 0;
-        font-size: 13px;
+        
+        font-size: 1em;
         margin: 0 auto;
     }
     #dark{
         width: 100%;
+        margin-top: 55%;
     }
     #light{
         width: 100%;
     }
 
     #about{
-        padding: 20px;
+        padding: 10% 7%;
         width: 100%;
-        font-size: 13px;
+        font-size: 1em;
     }
     .navbar a{
         display: none;
     }
     #room{
-        display: block;
-        margin-left: 150px;
+        display: block; 
+        margin-top: -10%;
+        position: absolute;
+        left: 50%;
+        transform: translateX(50%);
     }
 }
 
